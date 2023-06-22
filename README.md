@@ -14,6 +14,6 @@ To install this app, simply clone the repository and run `npm install` in the co
 
 ----
 
-Deployed App: 
+Deployed App:  https://agile-temple-10877-777d0dc6f537.herokuapp.com/
 
-GitHub Repo: 
+GitHub Repo:  https://github.com/teylorsmith34/note_taker
