@@ -18,6 +18,7 @@ app.get("/notes", (req, res) => {
 });
 
 app.get("/api/notes", (req, res) => {
+  console.log("GET request received.");
   fs.readFile("./db/db.json", "utf8", (err, data) => {
     if (err) {
       console.error(err);
@@ -28,6 +29,8 @@ app.get("/api/notes", (req, res) => {
     }
   });
 });
+
+// I need to go through and fix this to have .then methods.
 
 app.post("/api/notes", (req, res) => {
   const newNote = req.body;
